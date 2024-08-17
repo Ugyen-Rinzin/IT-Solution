@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/service1.css" />
+    <!-- bootstrap link  -->
+    <link
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- loop sider css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- FIXED ICON ON PAGE -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-us fixed-position">
+            <a href="https://web.whatsapp.com/" class="side-icon whatsapp"
+              ><i
+                class="fa-brands fa-whatsapp fixed-icon"
+                style="color: #ffffff"
+              ></i
+            ></a>
+            <a href="#" class="side-icon email"
+              ><i
+                class="fa-solid fa-envelope fixed-icon"
+                style="color: #ffffff"
+              ></i
+            ></a>
+            <a href="#" class="side-icon phone"
+              ><i
+                class="fa-solid fa-phone fixed-icon"
+                style="color: #ffffff"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start of navBar section -->
+    <section id="navBar">
+      <header>
+        <nav
+          class="navbar navbar-expand-lg navbar-dark fixed-top"
+          style="background-color: #151414"
+        >
+          <div class="container-fluid">
+            <img
+              src="./images/blog-img/project_logo-removebg-preview.png"
+              alt="Logo"
+              width="80"
+              height="80"
+              class="d-inline-block align-text-top rounded-circle"
+            />
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul
+                class="navbar-nav nav-underline ms-auto text-uppercase fw-bold"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="./service.html">Service </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./service5.html"
+                        >UI/UX design</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./service2.html"
+                        >Mobile Application Development</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="./service1.html"
+                        >Web development</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./service3.html"
+                        >Digital Marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./service4.html"
+                        >Video Animation</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carrees.html">careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <!-- End of navBar section -->
+
+    <div class="main_container mt-5">
+      <div class="left_text_content">
+        <h1>Web Development Leaders in Bhutan</h1>
+        <h4>
+          Bring the digital vision of your brand to life with a
+          fully-functional, responsive website
+        </h4>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <form action="index.html" method="post">
+            <h3>Have any questions?</h3>
+            <label for="name">Your Name*</label>
+            <input type="text" id="name" placeholder="Enter Your Name" />
+
+            <label for="email">Your Email*</label>
+            <input type="email" id="mail" placeholder="Enter your email" />
+
+            <label for="password">Your Phone Number*</label>
+            <input
+              type="number"
+              id="phone-number"
+              placeholder="Enter your phone number"
+            />
+
+            <br />
+
+            <label for="Budget">Budget</label>
+            <select id="budget" name="budget_amount">
+              <option>45,000BTN - 100,000BTN</option>
+              <option>120,000BTN - 150,000BTN</option>
+              <option>150,000+BTN</option>
+            </select>
+
+            <label>Your Message</label>
+            <textarea id="message" name="Your_message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="second_container" class="container">
+      <div class="main_slider">
+        <h2 class="h2">
+          The Best
+          <span class="text-gradient"
+            >Website &amp; Web Application Development</span
+          >
+          Company In BHUTAN
+        </h2>
+      </div>
+
+      <div class="Sub_slider"></div>
+      <div class="Sub-sub_slider"></div>
+    </div>
+
+    <!-- start of scrollspy code -->
+    <section id="scrollspy-page">
+      <div class="container mt-5">
+        <div class="row p-3 mt-5">
+          <div class="col-md-4">
+            <div id="list-example" class="list-group">
+              <a class="text-center" href="#"
+                ><img
+                  src="https://png.pngtree.com/png-vector/20221006/ourmid/pngtree-transparent-24-hours-service-banner-png-image_6288368.png"
+                  height="200"
+                  width="200"
+                  class="img-fluid rounded-circle"
+              /></a>
+              <a
+                class="list-group-item list-group-item-action"
+                href="#list-item-1"
+                >Wordpress Development</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                href="#list-item-2"
+                >PHP Development</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                href="#list-item-3"
+                >CMS Development</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                href="#list-item-4"
+                >Website Maintenance</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-8 mt-5">
+            <div
+              data-bs-spy="scroll"
+              data-bs-target="#list-example"
+              data-bs-smooth-scroll="true"
+              class="scrollspy-example"
+              tabindex="0"
+            >
+              <h4 id="list-item-1">Wordpress Development</h4>
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/wordpress-plugin-development.webp"
+                />
+                <h6 class="h6">WordPress Plugin Development</h6>
+                <p>
+                  Assessing the specific needs for enhanced functionality,
+                  ensuring a seamless and exclusive user experience. Trust our
+                  adept developers to deliver customized solutions, enriching
+                  your website with unparalleled features and performance.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/wordpress-cms-development.webp"
+                />
+                <h6 class="h6">WordPress CMS Development</h6>
+                <p>
+                  Our expert team then crafts a high-performance and scalable
+                  enterprise WordPress CMS, integrating features uniquely
+                  customized to meet the specific needs of your business.
+                  Experience the efficiency and flexibility of a CMS designed
+                  exclusively for your success.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/user-testing-and-feedback.webp"
+                />
+                <h6 class="h6">User Testing and Feedback</h6>
+
+                <p>
+                  Our team diligently conducts thorough examinations to ensure
+                  seamless functionality and optimal responsiveness. We actively
+                  seek feedback from your team as well, allowing us to make
+                  necessary adjustments and enhancements that contribute to the
+                  overall performance of your website.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/launch-and-deployment.webp"
+                />
+                <h6 class="h6">Launch and Deployment</h6>
+                <p>
+                  Our dedicated team closely monitors the launch, ensuring a
+                  smooth transition and immediate support in case of any
+                  unforeseen issues. Trust us for a flawless deployment that
+                  marks the beginning of your online presence in the digital
+                  hemisphere.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/training-and-support.webp"
+                />
+                <h6 class="h6">Training and Support</h6>
+                <p>
+                  We go beyond website development, offering you comprehensive
+                  training in efficiently managing content through WordPress.
+                  Our commitment extends to providing ongoing support, ensuring
+                  a seamless post-launch experience. Trust us to empower you
+                  with the knowledge and assistance needed to navigate your
+                  WordPress platform confidently.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/performance-monitoring-and-optimization.webp"
+                />
+                <h6 class="h6">Performance Monitoring and Optimization</h6>
+                <p>
+                  Our team seamlessly integrates performance monitoring tools
+                  and analytics to gauge your website's user engagement. Through
+                  continuous optimization, we ensure that you either trust us as
+                  the best WordPress company for small businesses or renowned
+                  businesses and that we consistently deliver peak performance
+                  and adapt to the evolving needs of your audience.
+                </p>
+              </div>
+              <br /><br />
+
+              <h4 id="list-item-2">PHP Development</h4>
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/custom-php-development.webp"
+                />
+                <h6 class="h6">Custom PHP Development</h6>
+                <p>
+                  We recognize your business's workflow and objectives and
+                  utilize our expertise to build dynamic and scalable PHP web
+                  apps. Our team of experts employs effective frameworks
+                  including Laravel, CodeIgniter, Laminas, CakePHP, Symfony, and
+                  more to cater to functionalities, user interfaces, and
+                  features your business application demands.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/cms-development.webp"
+                />
+                <h6 class="h6">CMS Development</h6>
+                <p>
+                  Digital Gravity specializes in creating PHP-powered CMS
+                  solutions that are highly customizable according to your
+                  requirements. Our professional PHP developers in Dubai have
+                  just the right expertise in PHP-based CMS such as WordPress,
+                  Joomla, and Drupal and use this scripting language to build
+                  and deliver a CMS that is up-to-date and runs smoothly.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/e-commerce-solutions.webp"
+                />
+                <h6 class="h6">E-Commerce Solutions</h6>
+                <p>
+                  Do you want to scale up your e-commerce site? We can do it for
+                  you. At Digital Gravity, we utilize robust and secure
+                  e-commerce solutions designed for your high-performance
+                  e-commerce portals which certainly enhance user engagement and
+                  align with your business goals.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/cloud-applications.webp"
+                />
+                <h6 class="h6">Cloud Applications</h6>
+                <p>
+                  All of us wish to manage our workloads and enhance
+                  productivity, right? And we help you achieve this through our
+                  PHP-powered cloud applications that empower you to save time
+                  and bring 360-degree value by optimizing your processes.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/php-web-development.webp"
+                />
+                <h6 class="h6">PHP Web Development</h6>
+                <p>
+                  From intricate web portals to exclusive large-scale enterprise
+                  applications, we have a wide-ranging bench of PHP web
+                  development expertise that focuses on dynamic, productive, and
+                  profitable websites, ensuring that they remain efficient,
+                  secure, and updated. We build innovative web applications
+                  using modern PHP frameworks that enable us to enhance
+                  functionalities as required.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/api-integration.webp"
+                />
+                <h6 class="h6">API Integration</h6>
+                <p>
+                  When you have Digital Gravity onboard, the creation and
+                  integration of public, private, or internal APIs in your PHP
+                  systems is not a problem. We expertly deliver well-documented
+                  APIs for your applications, enabling several software programs
+                  to interactively communicate and exchange data efficiently.
+                </p>
+              </div>
+              <br /><br />
+
+              <h4 id="list-item-3">CMS Development</h4>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/custom-cms-development.webp"
+                />
+                <h6 class="h6">Custom CMS Development</h6>
+                <p>
+                  We help you craft a unique online identity with our tailored
+                  Content Management Systems (CMS) that align perfectly with
+                  your brand.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/secure-cms-platforms.webp"
+                />
+                <h6 class="h6">Secure CMS Platforms</h6>
+                <p>
+                  Our team of experts ensure the safety of your digital assets
+                  by providing secure CMS platforms, offering robust protection
+                  against cyber threats.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/scalable-cms-architecture.webp"
+                />
+                <h6 class="h6">Scalable CMS Architecture</h6>
+                <p>
+                  We future-proof your digital growth with scalable CMS
+                  architecture, allowing seamless expansion as your business
+                  evolves.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/user-friendly-cms-interfaces.webp"
+                />
+                <h6 class="h6">User-Friendly CMS Interfaces</h6>
+                <p>
+                  Experience ease of use with our intuitive CMS interfaces,
+                  empowering you to manage content effortlessly, at your
+                  convenience.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/e-commerce-cms-solutions.webp"
+                />
+                <h6 class="h6">E-Commerce CMS Solutions</h6>
+                <p>
+                  Optimize your online store with our specialized E-commerce CMS
+                  solutions, designed for efficient product management and
+                  seamless transactions.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/cms-maintenance-and-support.webp"
+                />
+                <h6 class="h6">CMS Maintenance and Support</h6>
+                <p>
+                  Rest easy because you can rely on our dedicated support for
+                  ongoing CMS maintenance, ensuring your digital ecosystem runs
+                  smoothly and efficiently.
+                </p>
+              </div>
+              <br /><br />
+
+              <h4 id="list-item-4">Website Maintenance</h4>
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/high-security.webp"
+                />
+                <h6 class="h6">High Security</h6>
+                <p>
+                  The core of our services is security and to ensure your
+                  website is safe from all cyber threats and vulnerabilities, we
+                  implement security patches so that your website is protected
+                  and performs at its best. Moreover, we consider every aspect
+                  of web security, protocols, and regulatory compliance to
+                  authenticate that you have a perfectly functional website.
+                </p>
+              </div>
+
+              <div class="content">
+                <img class="myImg" src="./images/service-img/site-speed.webp" />
+                <h6 class="h6">Site Speed</h6>
+                <p>
+                  Are you looking for a website maintenance service provider who
+                  goes above and beyond to enhance your site speed? Digital
+                  Gravity is here for you. We make consistent efforts to make
+                  sure that your website surpasses Google's speed test
+                  requirements, leading to a better user experience.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/round-the-clock-availability.webp"
+                />
+                <h6 class="h6">Round the Clock Availability</h6>
+                <p>
+                  Your website is our responsibility and we take it seriously.
+                  With our web application maintenance services, we work
+                  relentlessly for ongoing system maintenance concerns and are
+                  available round the clock for technical issues including bug
+                  fixing, troubleshooting, backups, stability monitoring, and
+                  more.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/content-updates-sec.webp"
+                />
+                <h6 class="h6">Content Updates</h6>
+                <p>
+                  Content is the king of your website and we do everything in
+                  our power to strengthen the king for your advantage. With this
+                  idea, we regularly update the content with engaging texts or
+                  blog posts, captivating images, and other factors that keep
+                  your website relevant and dynamic and attract your clients and
+                  customers.
+                </p>
+              </div>
+
+              <div class="content">
+                <img
+                  class="myImg"
+                  src="./images/service-img/technical-support.webp"
+                />
+                <h6 class="h6">Technical Support</h6>
+                <p>
+                  Digital Gravity recognizes the post-launch concerns of a
+                  website and hence, we offer premium technical consultation.
+                  Our experts devise solutions for every query regarding website
+                  maintenance and performance. We are your partner to reach out
+                  to when you wish to seek expert assistance for strategic
+                  advice or technical difficulties.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of scrollspy code -->
+    <!-- ----------------------------- -->
+
+    <!--  Main side scrol bar -->
+
+    <section class="Am-img-slider-container">
+      <h1>Gravitate Towards Unparalleled WordPress Excellence</h1>
+
+      <div class="swiper blog-slider">
+        <div class="swiper-wrapper">
+          <!-- slide -->
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img
+                class="back-image"
+                alt=""
+                src="./images/service-img/bg-image1.jpeg"
+              />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="./images/service-img/bg-development-image.jpg"
+                />
+                <div class="overly">
+                  <a href="#" title="-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Our Process</h2>
+              <p class="blog-slider__text">
+                These steps blend the technical precision and creative
+                ingenuity, ensuring a tailored and exceptional experience from
+                concept to fruition.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img
+                class="back-image"
+                alt=""
+                src="./images/service-img/bg-image1.jpeg"
+              />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="./images/service-img/card1.svg"
+                />
+                <div class="overly">
+                  <a href="#" title="-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Planning</h2>
+              <ul class="blog-slider__text">
+                <li>Business analysis</li>
+                <li>Document specifications</li>
+                <li>Preparing wireframes</li>
+                <li>Getting client approval</li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img
+                class="back-image"
+                alt=""
+                src="./images/service-img/bg-image1.jpeg"
+              />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="./images/service-img/card2.svg"
+                />
+                <div class="overly">
+                  <a href="#" title="-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Development</h2>
+              <ul class="blog-slider__title">
+                <li>Coding</li>
+                <li>Mockup &amp; page layout creation</li>
+                <li>Review</li>
+                <li>Approval cycle</li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img
+                class="back-image"
+                alt=""
+                src="./images/service-img/bg-image1.jpeg"
+              />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="./images/service-img/card3.svg"
+                />
+                <div class="overly">
+                  <a href="#" title="-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Testing</h2>
+              <ul class="blog-slider__title">
+                <li>Preparing test cases</li>
+                <li>Testing</li>
+                <li>Review by the QA team</li>
+                <li>Approval cycle</li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img
+                class="back-image blog-slider__backimg"
+                alt=""
+                src="./images/service-img/bg-image1.jpeg"
+              />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="./images/service-img/card4.svg"
+                />
+                <div class="overly">
+                  <a href="#" title="-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Deployment</h2>
+              <ul class="blog-slider__text">
+                <li>Launch</li>
+                <li>Opinion monitoring</li>
+                <li>Maintenance</li>
+                <li>Post-deployment support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--   Main  end of slider -->
+
+    <!-- start of footer Section -->
+    <section id="footer_section">
+      <footer class="footer-section">
+        <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="cta-text">
+                    <h4>Find us</h4>
+                    <span>Thimphu</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-phone"></i>
+                  <div class="cta-text">
+                    <h4>Call us</h4>
+                    <span>+975 17777777</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="far fa-envelope-open"></i>
+                  <div class="cta-text">
+                    <h4>Mail us</h4>
+                    <span>mail@info.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-content pt-5 pb-5">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <a href="index.html"
+                      ><img
+                        src="./images/blog-img/project_logo-removebg-preview.png"
+                        class="img-fluid"
+                        alt="logo"
+                    /></a>
+                  </div>
+                  <div class="footer-text">
+                    <p>
+                      Digital Gravity is an accomplished digital transformation
+                      company in Bhutan with a progressive perspective. We offer
+                      scalable web and mobile solutions coupled with digital
+                      marketing services under one roof — without silos or
+                      handoffs
+                    </p>
+                  </div>
+                  <div class="footer-social-icon">
+                    <span>Follow us</span>
+                    <a href="#"
+                      ><i class="fab fa-facebook-f facebook-bg"></i
+                    ></a>
+                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                    <a href="#"
+                      ><i class="fab fa-google-plus-g google-bg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                    <h3>Useful Links</h3>
+                  </div>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Expert Team</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Latest News</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                    <h3>Subscribe</h3>
+                  </div>
+                  <div class="footer-text mb-25">
+                    <p>
+                      Don't miss to subscribe to our new feeds, kindly fill the
+                      form below.
+                    </p>
+                  </div>
+                  <div class="subscribe-form">
+                    <form action="#">
+                      <input type="text" placeholder="Email Address" />
+                      <button><i class="fab fa-telegram-plane"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                <div class="copyright-text">
+                  <p>
+                    Copyright &copy; 2024, All Right Reserved
+                    <a href="#">Digital-Gravity</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                <div class="footer-menu">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- loop sider js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript" src="./js/service1.js"></script>
+    <!-- bootstrap link js     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
